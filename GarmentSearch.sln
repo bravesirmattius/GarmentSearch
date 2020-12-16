@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearch", "GarmentSearch\GarmentSearch.csproj", "{A6D3C30F-1754-4C68-9EBE-EB9C1CFF6FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearch.Test", "GarmentSearch.Test\GarmentSearch.Test.csproj", "{625F8C2F-4EFA-4163-9571-A30377888A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearch.Service", "GarmentSearch.Service\GarmentSearch.Service.csproj", "{295B9EC9-D254-408D-A2AF-8E717143406C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearch.Repository", "GarmentSearch.Repository\GarmentSearch.Repository.csproj", "{2160B71A-C0CA-4343-926D-35160BF50A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearch.Core", "GarmentSearch.Core\GarmentSearch.Core.csproj", "{59003B7B-0DB3-4AEC-B005-CC2568068C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarmentSearchMVC", "GarmentSearchMVC\GarmentSearchMVC.csproj", "{CAD9B5F6-EA33-4AAD-955B-750D6DED4077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D3C30F-1754-4C68-9EBE-EB9C1CFF6FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D3C30F-1754-4C68-9EBE-EB9C1CFF6FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D3C30F-1754-4C68-9EBE-EB9C1CFF6FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D3C30F-1754-4C68-9EBE-EB9C1CFF6FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625F8C2F-4EFA-4163-9571-A30377888A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625F8C2F-4EFA-4163-9571-A30377888A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625F8C2F-4EFA-4163-9571-A30377888A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625F8C2F-4EFA-4163-9571-A30377888A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295B9EC9-D254-408D-A2AF-8E717143406C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295B9EC9-D254-408D-A2AF-8E717143406C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295B9EC9-D254-408D-A2AF-8E717143406C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295B9EC9-D254-408D-A2AF-8E717143406C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2160B71A-C0CA-4343-926D-35160BF50A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2160B71A-C0CA-4343-926D-35160BF50A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2160B71A-C0CA-4343-926D-35160BF50A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2160B71A-C0CA-4343-926D-35160BF50A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59003B7B-0DB3-4AEC-B005-CC2568068C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59003B7B-0DB3-4AEC-B005-CC2568068C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59003B7B-0DB3-4AEC-B005-CC2568068C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59003B7B-0DB3-4AEC-B005-CC2568068C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD9B5F6-EA33-4AAD-955B-750D6DED4077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD9B5F6-EA33-4AAD-955B-750D6DED4077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD9B5F6-EA33-4AAD-955B-750D6DED4077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD9B5F6-EA33-4AAD-955B-750D6DED4077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AF85B49-89EA-49B0-83C0-B9A643B821B3}
+	EndGlobalSection
+EndGlobal

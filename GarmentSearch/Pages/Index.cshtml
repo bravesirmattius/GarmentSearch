@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form asp-action="SearchGarments">
+    <input id="txtSearch" type="text" />
+    <input id="btnSearch" type="submit" value="Search" />
+</form>
+
+<script>
+    $('#btnSearch').click(function (e)
+    {
+        const searchCriteria = ('#txtSearch').text();
+        $.ajax({
+            url: '/SearchGarments',
+            method: 'Get',
+            contentType: 'text/json',
+            data: {
+                SearchCriteria: searchCriteria
+            }
+        }).done(function (result) {
+            $('#divGarment').append("<ul>");
+            $.each(result, function (index, val)
+            {
+                $('#divGarment').append(val.StyleName);
+            })
+            $('#divGarment').append("</ul>");
+        }
+    })
+
+</script>
+
+<div id="divGarments">
+
+</div>
